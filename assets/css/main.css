@@ -396,3 +396,7 @@ a {
 #freeplan {
     margin-bottom: 20px;
 }
+
+.fakelink {
+    cursor: pointer
+}
