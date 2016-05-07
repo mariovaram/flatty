@@ -31,8 +31,7 @@ function jumpToAnchor (target){window.location.hash=target;}
       <script type="text/javascript">document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/"</script>
       <script type="text/javascript">document.getElementById("regbtn").onclick = function() {pop()} </script>
       <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">
-      function pop() {
-        require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"ffa8c7c37ada0d3e1f803b6f6","lid":"cd024d2c79"}) })    
+      function pop() {require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"ffa8c7c37ada0d3e1f803b6f6","lid":"cd024d2c79"}) })    
       }
       </script>
         
@@ -221,7 +220,7 @@ function jumpToAnchor (target){window.location.hash=target;}
                                 </p>
                             
                             </div>
-                            <div class="pricing-table-sign-up">
+                            <div class="pricing-table-sign-up" id="regbtn">
                                 <button class="bold white-font" id="regbtn">Subscribe Me</button>
                             </div>
                         </div>
