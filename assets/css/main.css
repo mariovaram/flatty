@@ -43,7 +43,7 @@ h4 {
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     font-size: 16px;
 }
 
@@ -399,4 +399,36 @@ a {
 
 .fakelink {
     cursor: pointer
+}
+
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+  height: 13em;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height .25s;
+  transition: height .25s;
+}
+
+.left {
+    text-align: left;
+}
+
+.accordion-item-content {
+    padding-left: 10px;
+}
+
+a.paylink {
+    color: black;
+    font-size: 16px;
+    background: none;
+    line-height: 28px;
+    text-transform: none;
+    border-radius: initial;
+    text-shadow: 0px 0px 0px;
+    width: initial;
 }
